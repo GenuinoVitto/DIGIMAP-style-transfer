@@ -1,38 +1,32 @@
+# Create React App
 
-# Style Transfer Web App using TensorFlow.js and React.js
+This directory is a brief example of a [Create React App](https://github.com/facebook/create-react-app) site that can be deployed to Vercel with zero configuration.
 
-## Instructions for setting up for development:
-You will only have to do these once when you are setting up for development
+## Deploy Your Own
 
-1. Open a new instance of command line
-2. Enter the command `npm i` or `yarn`.
+Deploy your own Create React App project with Vercel.
 
-## Instructons to run the application:
-1. Open a new instance of command line
-2. Enter the command `npm run start` or `yarn start`.
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/vercel/tree/main/examples/create-react-app&template=create-react-app)
 
-## Technologies/APIs used:
-| Area                  | Tool                    |
-| --------------------- | ----------------------- |
-| Programming Languages | HTML, CSS, Javascript   |
-| Front-End Framework   | React.js                |
-| Back-end APIs         | TensorFlow.js           |
+_Live Example: https://create-react-template.vercel.app/_
 
-## Development Notes: 
-### Coding Standards
-ReactJS (JSX): https://github.com/airbnb/javascript/tree/master/react  
-HTML: https://developer.mozilla.org/en-US/docs/MDN/Guidelines/Code_guidelines/HTML  
-Javascript: https://developer.mozilla.org/en-US/docs/MDN/Guidelines/Code_guidelines/JavaScript  
-CSS: https://developer.mozilla.org/en-US/docs/MDN/Guidelines/Code_guidelines/CSS  
+## Available Scripts
 
-### Folder Structure
-- public (contains the built application)  
-  `NOTE: the files here will be the ones used for deployment` 
-  - model (contains the frozen model in binary format)
-- src  
-    - components (react user-defined components)
-    - images (images)
-    - styles (css)  
-    - App.js (contains the whole application)
-    - index.js (connects App.js to HTML)
+In the project directory, you can run:
+
+### `npm start`
+
+Runs the app in the development mode. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+The page will reload when you make changes. You may also see any lint errors in the console.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode. See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.
+
+It correctly bundles React in production mode and optimizes the build for the best performance. The build is minified and the filenames include the hashes.
 
