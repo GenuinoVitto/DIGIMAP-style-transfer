@@ -139,7 +139,7 @@ const App = () => {
         ctx.drawImage(renderer, 0,0, canvas.width, canvas.height)
         success('Style transferred!')
       });*/
-      fetch("/hello?imgUrl=" + content.src).then(
+      fetch("/hello?contentUrl=" + content.src + "&styleUrl=" + style.src).then(
         res => res.json()
       ).then(
           data => {
