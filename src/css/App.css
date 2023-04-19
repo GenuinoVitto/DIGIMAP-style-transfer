@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Petit+Formal+Script&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.ant-layout-header {
+  padding: 0 20px;
+}
+
+#logo {
+  width: 60px;
+  height: 50px;
+}
+
+#navbar {
+  background: rgb(0, 0, 0, 0);
+}
+
+.ant-row-rtl .logo {
+  float: right;
+  margin: 16px 0 16px 24px;
+}
+
+.site-layout-background {
+  background: rgb(255, 255, 255);
+}
+
+#header-content {
+  min-height: 45vh;
+}
+
+#main-title {
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 60px;
+  margin-top: 3vh;
+  margin-bottom: 6vh;
+}
+
+.title-image {
+  color:#453f3a;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.ant-progress-outer {
+  margin-top: 60px;
+  margin-left: 15vw;
+  margin-right: 0;
+  width: 70%;
+}
+
+.ant-progress-text {
+  color: white;
+}
+
+#pad-layout {
+  margin: 15px 15px 0 15px;
+  padding: 10px 10px;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  #pad-content {
+    padding: 0 50px
+  }
+
+  #pad-layout {
+    margin: 40px 50px 0 50px;
+    padding: 55px 20%;
+  }
+
+  #main-title {
+    font-size: 90px;
+  }
+
+  #logo {
+    width: 110px;
+    height: 100px;
+  }
+
+  .ant-layout-header {
+    padding: 0 50px;
+  }
+}
