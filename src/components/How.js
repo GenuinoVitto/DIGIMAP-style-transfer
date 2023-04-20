@@ -28,9 +28,10 @@ const How = () => {
       <Paragraph
       style ={{
         textAlign: "justify",
-        color: 'black'
+        color: 'black',
+        fontSize: 18
       }}>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        The web application performs a Neural Style Transfer image processing where the content of the first image is rendered with the style of the second image. The web application features two ways in which the Neural Style Transfer technique is performed: (1) GPU style and (2) fast style. The fast style can be performed on any arbitrary painting with faster speed than the GPU style at the expense of lower quality.
       </Paragraph>
 
       <Title
@@ -38,14 +39,36 @@ const How = () => {
         color: "#e0ae9f"
       }} 
       level={1}> 
-      Acknowledgement 
+      How It Works 
       </Title>
 
       <Paragraph style ={{
         textAlign: "justify",
-        color: 'black'
+        color: 'black',
+        fontSize: 18
       }}>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        Step 1: Upload a content image. <br/>
+        Step 2: Upload a style image or choose from the available paintings by renowned Filipino artists.<br/>
+        Step 3: Choose between fast or GPU style transfer and select the corresponding button.<br/>
+        Step 4: View the output image and download it (optional).<br/>
+      </Paragraph>
+
+      <Title
+      style={{
+        color: "#e0ae9f"
+      }} 
+      level={1}> 
+      Resources 
+      </Title>
+
+      <Paragraph style ={{
+        textAlign: "justify",
+        color: 'black',
+        fontSize: 18
+      }}>
+        De Guzman, C. (2022). Style transfer web app using TensorFlow.js and React.js. Github. <a href="https://github.com/cyril-deguzman/react-style-transfer">https://github.com/cyril-deguzman/react-style-transfer</a><br/>
+        Gatys, L. A., Ecker, A. S., & Bethge, M. (2015). A neural algorithm of artistic style. Journal of Vision, 326. <a href="https://doi.org/10.1167/16.12.326">https://doi.org/10.1167/16.12.326</a><br/>
+        Ghiasi, G., Lee, H., Kudlur, M., Dumoulin,V., & Shlens, J. (2017). Exploring the structure of a real-time, arbitrary neural artistic stylization network. Proceedings of the British Machine Vision Conference (BMVC), <a href="https://doi.org/10.48550/arXiv.1705.06830">https://doi.org/10.48550/arXiv.1705.06830</a><br/>
       </Paragraph>
     </Space>
   )
