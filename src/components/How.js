@@ -8,7 +8,7 @@ import Sample from './Sample';
 const { Title, Paragraph, Link, Text } = Typography;
 
 const How = () => {
-  let github = <Link href='https://github.com/alessgomez/DIGIMAPStyleTransfer' target="_blank">here</Link>
+  let github = <Link href='https://github.com/GenuinoVitto/DIGIMAP-style-transfer' target="_blank">here</Link>
 
   return(
 
