@@ -35,11 +35,8 @@ This project centers on creating a web application that can implement image styl
 **Sample Custom Style Image**<br>
 ![Sample Custom Style Image](./samples/sample_style.png)
 
-**Generated Fast Stylized Image**<br>
-![Sample Custom Style Image](./samples/sample_fast_stylized.png)
-
-**Generated GPU Stylized Image**<br>
-![Sample Custom Style Image](./samples/sample_gpu_stylized.png)
+**Generated Stylized Images (Fast vs GPU)**<br>
+![Sample Custom Style Image](./samples/sample_fast_stylized.png) ![Sample Custom Style Image](./samples/sample_gpu_stylized.png)
 
 ## Technology Stack
 | Aspect                | Tool                          |
