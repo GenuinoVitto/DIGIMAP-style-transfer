@@ -19,6 +19,10 @@ This computer vision technique is called image style transfer. It makes use of c
 This project centers on creating a web application that can implement image style transfer. With the aid of libraries such as TensorFlow.js and Magenta.js, applying the algorithm becomes easier. The project makes use of the algorithm illustrated by Gatys et. al in their paper, A Neural Algorithm of Artistic Style (see References).
 
 ### How to Run the Application
+#### Using the Deployed Application Link
+Access the deployed web application at https://digimap-style-transfer.vercel.app/.
+
+#### Using Localhost
 1. In the command line, navigate to the directory of the project and run `npm install`. This will only be done once in order to install the necessary packages used in the project.
 2. Run the command `npm start`. A `localhost:3000` page will be loaded automatically, containing the application.
 
@@ -29,13 +33,13 @@ This project centers on creating a web application that can implement image styl
 4. You may opt to download the stylized image using the download button.
 
 ### Sample Inputs and Outputs
-**Sample Content Image**<br>
+#### Sample Content Image
 ![Sample Content Image](./samples/sample_content.png)
 
-**Sample Custom Style Image**<br>
+#### Sample Custom Style Image
 ![Sample Custom Style Image](./samples/sample_style.png)
 
-**Generated Stylized Images (Fast vs GPU)**<br>
+#### Generated Stylized Images (Fast vs GPU)
 ![Sample Custom Style Image](./samples/sample_fast_stylized.png) ![Sample Custom Style Image](./samples/sample_gpu_stylized.png)
 
 ## Technology Stack
