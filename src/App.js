@@ -295,7 +295,7 @@ const App = () => {
       
       <Space direction='vertical'>
         Image Style Transfer | DIGIMAP 2023 | Fong, Hannah Regine C. | Genuino, Jose Mari Victorio G. | Gomez, Alessandra Pauleen I. | Tighe, Kaitlyn Patricia
-        <Button type="text" href='https://github.com/GenuinoVitto/DIGIMAP-style-transfer' target="_blank">
+        <Button type="text" href='https://github.com/alessgomez/DIGIMAPStyleTransfer' target="_blank">
             <GithubOutlined className="teamSocialIcon" />
         </Button>
       </Space>
