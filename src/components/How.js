@@ -66,7 +66,7 @@ const How = () => {
         color: 'black',
         fontSize: 14
       }}>
-        De Guzman, C. (2022). Style transfer web app using TensorFlow.js and React.js. Github. <a href="https://github.com/cyril-deguzman/react-style-transfer">https://github.com/cyril-deguzman/react-style-transfer</a><br/>
+        de Guzman, C. E, Roncal, R., & Rebong, L. H. (2022, August 21). Style Transfer Web App Using TensorFlow.js and React.js [GitHub Repository] <a href="https://github.com/cyril-deguzman/react-style-transfer">https://github.com/cyril-deguzman/react-style-transfer</a><br/>
         Gatys, L. A., Ecker, A. S., & Bethge, M. (2015). A neural algorithm of artistic style. Journal of Vision, 326. <a href="https://doi.org/10.1167/16.12.326">https://doi.org/10.1167/16.12.326</a><br/>
         Ghiasi, G., Lee, H., Kudlur, M., Dumoulin,V., & Shlens, J. (2017). Exploring the structure of a real-time, arbitrary neural artistic stylization network. Proceedings of the British Machine Vision Conference (BMVC), <a href="https://doi.org/10.48550/arXiv.1705.06830">https://doi.org/10.48550/arXiv.1705.06830</a><br/>
       </Paragraph>
