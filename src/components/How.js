@@ -29,7 +29,7 @@ const How = () => {
       style ={{
         textAlign: "justify",
         color: 'black',
-        fontSize: 18
+        fontSize: 14
       }}>
         The web application performs a Neural Style Transfer image processing where the content of the first image is rendered with the style of the second image. The web application features two ways in which the Neural Style Transfer technique is performed: (1) GPU style and (2) fast style. The fast style can be performed on any arbitrary painting with faster speed than the GPU style at the expense of lower quality.
       </Paragraph>
@@ -45,7 +45,7 @@ const How = () => {
       <Paragraph style ={{
         textAlign: "justify",
         color: 'black',
-        fontSize: 18
+        fontSize: 14
       }}>
         Step 1: Upload a content image. <br/>
         Step 2: Upload a style image or choose from the available paintings by renowned Filipino artists.<br/>
