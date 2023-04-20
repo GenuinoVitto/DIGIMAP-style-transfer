@@ -120,7 +120,6 @@ const App = () => {
   }
 
   const handleFastStyle = () => {
-    /*
     message.loading('please wait...', 2, () => {
       console.log('style transferring...')
       const content = contentRef.current;
@@ -140,14 +139,7 @@ const App = () => {
         ctx.drawImage(renderer, 0,0, canvas.width, canvas.height)
         success('Style transferred!')
       });
-    })*/
-    fetch("/hello").then(
-      res => res.json()
-    ).then(
-        data => {
-          document.getElementById('main-title').innerHTML = data.stringout
-        }
-    )
+    })
   }
 
   const handleDownload = () => {
