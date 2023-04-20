@@ -16,7 +16,7 @@ With the rise of new AIs and other software that take image processing to anothe
 
 This computer vision technique is called image style transfer. It makes use of convolutional neural networks to recompose an image into integrating the texture of the style image.
 
-This project centers on creating a web application that can implement image style transfer. With the aid of libraries such as TensorFlow.js and Magenta.js, applying the algorithm becomes easier. The project makes use of the algorithm illustrated by Gatys et. al in their paper, A Neural Algorithm of Artistic Style (see References).
+This project centers on creating a web application that can implement image style transfer. With the aid of libraries such as TensorFlow.js and Magenta.js, applying the algorithm becomes easier.
 
 ### How to Run the Application
 #### Using the Deployed Application Link
@@ -51,8 +51,9 @@ Access the deployed web application at https://digimap-style-transfer.vercel.app
 | Deployment            | Vercel                        |
 
 ## References
-### Published Research Paper
+### Published Research Papers
 - Gatys, L. A., Ecker, A. S., & Bethge, M. (2016, September). A Neural Algorithm of Artistic Style. *Journal of Vision*, *16*(12), 326. https://doi.org/10.1167/16.12.326
+- Ghiasi, G., Lee, H., Kudlur, M., Dumoulin, V., & Shlens, J. (2017). Exploring the structure of a real-time, arbitrary neural artistic stylization network. *British Machine Vision Conference 2017*. https://doi.org/10.5244/c.31.114
 
 ### Source Code Implementation
 - de Guzman, C. E, Roncal, R., & Rebong, L. H. (2022, August 21). Style Transfer Web App Using TensorFlow.js and React.js [GitHub Repository]. https://github.com/cyril-deguzman/react-style-transfer
