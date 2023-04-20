@@ -120,13 +120,14 @@ const App = () => {
   }
 
   const handleFastStyle = () => {
+    /*
     message.loading('please wait...', 2, () => {
       console.log('style transferring...')
       const content = contentRef.current;
       const style = styleRef.current;
       const canvas = canvasRef.current;
       const ctx = canvas.getContext('2d')
-      /*
+
       fastModel.stylize(content, style).then((imageData) => {
         // generate a second canvas
         var renderer = document.createElement('canvas');
@@ -138,15 +139,15 @@ const App = () => {
 
         ctx.drawImage(renderer, 0,0, canvas.width, canvas.height)
         success('Style transferred!')
-      });*/
-      fetch("/hello?imgUrl=" + content.src).then(
-        res => res.json()
-      ).then(
-          data => {
-            document.getElementById('main-title').innerHTML = data.stringout
-          }
-      )
-    })
+      });
+    })*/
+    fetch("/hello").then(
+      res => res.json()
+    ).then(
+        data => {
+          document.getElementById('main-title').innerHTML = data.stringout
+        }
+    )
   }
 
   const handleDownload = () => {
