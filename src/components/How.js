@@ -64,7 +64,7 @@ const How = () => {
       <Paragraph style ={{
         textAlign: "justify",
         color: 'black',
-        fontSize: 18
+        fontSize: 14
       }}>
         De Guzman, C. (2022). Style transfer web app using TensorFlow.js and React.js. Github. <a href="https://github.com/cyril-deguzman/react-style-transfer">https://github.com/cyril-deguzman/react-style-transfer</a><br/>
         Gatys, L. A., Ecker, A. S., & Bethge, M. (2015). A neural algorithm of artistic style. Journal of Vision, 326. <a href="https://doi.org/10.1167/16.12.326">https://doi.org/10.1167/16.12.326</a><br/>
